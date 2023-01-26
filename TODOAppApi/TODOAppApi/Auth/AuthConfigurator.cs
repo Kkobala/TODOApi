@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Text;
 using System;
 using TODOAppApi.Db.Entities;
+using TODOAppApi.Db;
 
 namespace TODOAppApi.Auth
 {

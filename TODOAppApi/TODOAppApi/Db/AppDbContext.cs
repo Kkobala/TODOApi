@@ -7,7 +7,7 @@ namespace TODOAppApi.Db
 {
     public class AppDbContext : IdentityDbContext<UserEntity, RoleEntity, int>
     {
-        DbSet<SendMailRequestEntity> SendEmailRequests { get; set; }
+        public DbSet<SendEmailRequestEntity> SendEmailRequests { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {

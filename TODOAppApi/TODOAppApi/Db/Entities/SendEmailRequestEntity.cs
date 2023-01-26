@@ -7,7 +7,7 @@
         Failed
     }
 
-    public class SendMailRequestEntity
+    public class SendEmailRequestEntity
     {
         public int Id { get; set; }
 
